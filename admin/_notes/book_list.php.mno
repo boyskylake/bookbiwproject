@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_book" value="name:bo_id;datatype:int,name:bt_id;datatype:int,name:bo_name;datatype:string,name:bo_detail;datatype:blob,name:bo_img;datatype:string,name:bo_qty;datatype:string,name:bo_view;datatype:int,name:datesave;datatype:timestamp" />
+</info>

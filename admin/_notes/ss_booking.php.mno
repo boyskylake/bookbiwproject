@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_ss" value="name:dt_id;datatype:int,name:bi_id;datatype:int,name:mem_id;datatype:int,name:dt_day;datatype:date,name:dt_date;datatype:time" />
+	<infoitem key="UD_book" value="name:bo_id;datatype:int,name:bt_id;datatype:int,name:bo_name;datatype:string,name:bo_detail;datatype:blob,name:bo_img;datatype:string,name:bo_qty;datatype:string,name:bo_view;datatype:int,name:datesave;datatype:timestamp" />
+	<infoitem key="UD_mm" value="name:mem_id;datatype:int,name:ms_id;datatype:int,name:mem_name;datatype:string,name:mem_address;datatype:string,name:mem_tel;datatype:string,name:mem_email;datatype:string,name:mem_user;datatype:string,name:mem_pass;datatype:string,name:datesave;datatype:timestamp" />
+</info>

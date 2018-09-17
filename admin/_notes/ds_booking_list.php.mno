@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_ds" value="name:bi_id;datatype:int,name:mem_id;datatype:int,name:bi_room;datatype:int,name:bu_id;datatype:int,name:ft_id;datatype:int,name:bi_class;datatype:string,name:bi_no;datatype:string,name:bi_in;datatype:datetime,name:bi_return;datatype:datetime,name:bi_out;datatype:datetime,name:bi_status;datatype:int,name:bi_fine;datatype:real,name:bi_text;datatype:string" />
+</info>

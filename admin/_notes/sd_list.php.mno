@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_sd" value="name:sd_id;datatype:int,name:mem_id;datatype:int,name:sd_month;datatype:string,name:sd_day;datatype:string,name:datesave;datatype:timestamp" />
+</info>
