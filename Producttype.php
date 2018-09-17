@@ -66,10 +66,6 @@ $totalPages_rectype = ceil($totalRows_rectype/$maxRows_rectype)-1;
 </head>
 
 <body>
-
-  
-  
-      
       <?php do { ?>
   <div class=" col-xs-6 col-sm-4 col-md-4">
     <div class="thumbnail">
@@ -98,16 +94,6 @@ $totalPages_rectype = ceil($totalRows_rectype/$maxRows_rectype)-1;
     </div>
   </div>
    <?php } while ($row_rectype = mysql_fetch_assoc($rectype)); ?>
-
-      
-      
-      
-     
-      
-     
-      
-    
-    
 
 </body>
 </html>

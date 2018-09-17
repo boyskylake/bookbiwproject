@@ -29,18 +29,27 @@ date_default_timezone_set('Asia/Bangkok');
 	$ft_id = $_POST['ft_id'];
 	$bi_class = $_POST['bi_class'];
 	$bi_no = $_POST['bi_no'];
-	$bi_in = '';
-	$bi_return = '';
+	$bi_in = '0000-00-00 00:00:00';
+	$bi_return = '0000-00-00';
 	$bi_out = date("Y-m-d H:i:s");
 	$bi_status = 1;
 	$bi_fine = $_POST['bi_fine'];
+	if (empty($bi_fine)) {
+        $bi_fine = '0.00';
+    }
+    
 	$bi_text = $_POST['bi_text'];
-	$bn_room = $_POST['bn_room'];
-	$bn_id = $_POST['bn_id'];
+    $bn_room = $_POST['bn_room'];
+    if (empty($bn_room)) {
+        $bn_room = '0';
+    }
+    $bn_id = $_POST['bn_id'];
+    if (empty($bn_id)) {
+        $bn_id = '0';
+    }
 	$bn_no = $_POST['bn_no'];
 	$bn_class = $_POST['bn_class'];
 	$s_at = $_POST['s_at'];
-
 
 
 	

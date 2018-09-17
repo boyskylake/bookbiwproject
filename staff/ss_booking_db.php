@@ -81,8 +81,8 @@ $bi_return = $_POST['bi_return'];
 			$totalRows_show = mysql_num_rows($book5);
 
 
-            echo $send = $row4['mem_email'];
-            echo $recive = $row['mem_email'];
+            // echo $send = $row4['mem_email'];
+            // echo $recive = $row['mem_email'];
             $str = ('ยืนยันการจองหนังสือ');
 
             $mail = new PHPMailer();
